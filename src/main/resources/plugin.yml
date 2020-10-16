@@ -1,0 +1,14 @@
+name: CheatDetectionReplay
+version: 1.0
+description: Whos cheating, really?
+author: isokissa3
+website: https://joniaromaa.fi
+
+main: net.goldtreeservers.cheatdetectionreplay.CheatDetectionReplayPlugin
+
+depend: [ProtocolLib]
+
+commands:
+   cdr:
+     description: Cheat Detection Replay
+     permission: cheatdetectionreplay.command.use
